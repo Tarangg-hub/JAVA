@@ -1,0 +1,11 @@
+public class Main {
+
+    public static void main(String[] args) {
+        nt mins = 3456789;
+            System.out.println("Total number of minutes are = "+mins);
+            long numOfHours = mins / 60;
+            long numOfDays = numOfHours / 24;
+            long numOfYears = numOfDays / 365;
+            System.out.println(+ mins + " minutes is approximately " + numOfYears + " years and " + numOfDays + " days.");
+    }
+}
